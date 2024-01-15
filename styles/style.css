@@ -6,7 +6,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family: "Poppins", sans-serif;
 }
 
@@ -19,6 +19,7 @@
   padding: 12px 24px;
   border: none;
   border-radius: 40px;
+  margin-top: 16px;
 }
 
 /* nav menu style */
@@ -27,7 +28,7 @@ header {
   max-width: 1250px;
   /* padding: 20px 120px; */
   margin: 20px auto;
-  border: 1px solid lightcoral;
+  /* border: 1px solid lightcoral; */
 }
 
 .nav {

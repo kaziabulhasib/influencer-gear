@@ -1,3 +1,33 @@
-.responsive {
-  color: lightblue;
+/* google fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&display=swap");
+
+@media screen and (max-width: 576px) {
+  .nav,
+  .nav .nav-menu,
+  .banner {
+    flex-direction: column;
+  }
+  .banner-img {
+    width: 70%;
+  }
+  .nav .nav-title {
+    font-size: 1rem;
+  }
+
+  /* .banner {
+    margin: 5px;
+  } */
+  .banner .banner-content {
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .banner .banner-content h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+  }
 }
+
+/* medium device  responsive style */
+/* max-width:960px and min-width:576px */
